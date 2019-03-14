@@ -1,4 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React
+App](https://github.com/facebook/create-react-app).
+
+## WoW Missing Pet Finder
+
+WoW Missing Pet Finder is a fun project I built to build on top of my ES6 and
+React knowledge. The tool allows me to quickly load up the pets a character is
+missing and where/how to find them. They are divided by the location/type of
+content. This was built as a quick way to find this information that other
+sites were lacking.
+
+## First Steps
+
+1. Head over to [https://develop.battle.net/](https://develop.battle.net/)
+2. Log in via your Bnet Credentials and create a new client
+3. Add a `.env` file to the root source of the project
+4. Add the following below to the `.env` file
+
+```
+REACT_APP_BATTLE_NET_URL='https://us.battle.net'
+REACT_APP_US_BLIZZARD_CHARACTER_API_URL='https://us.api.blizzard.com/wow/character'
+REACT_APP_BNET_ID=<INSERT YOUR CLIENT ID HERE>
+REACT_APP_BNET_SECRET=<INSERT YOUR SECRET KEY HERE>
+```
+
+## Install
+
+```
+npm install
+```
 
 ## Available Scripts
 
@@ -12,7 +41,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+<!-- ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -35,7 +64,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it. -->
 
 ## Learn More
 
@@ -43,7 +72,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<!-- ### Code Splitting
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
@@ -65,4 +94,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
